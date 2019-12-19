@@ -1,0 +1,110 @@
+{
+    "name": "Authorize.Net",
+    "description": "Authorize.Net's payment gateway provides services to help merchants accept online and mobile credit card processing, payments via echecks, and more.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/376-authorize-net.jpg",
+    "tags": [
+        "api provider",
+        "business",
+        "change log example",
+        "communications",
+        "financial",
+        "have api",
+        "have openapi",
+        "payment",
+        "payments",
+        "point of sale",
+        "profile",
+        "recurring billing",
+        "recurring payments",
+        "shopping",
+        "subscriptions",
+        "webhook implementations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/authorize-net\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Webhooks REST API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/376-authorize-net.jpg",
+            "humanURL": "http:\/\/www.authorize.net\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/webhooks-rest-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/webhooks-rest-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/AuthorizeNet"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.authorize.net\/"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/twitter.com\/mercatusinc"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.authorize.net\/resources\/blog\/"
+        },
+        {
+            "type": "Change Logs",
+            "url": "https:\/\/developer.authorize.net\/api\/changes\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/authorize-net"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/authorize-net"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.authorize.net\/developers\/"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/www.authorize.net\/resources\/find-a-partner\/?category=category-one&showDescription=false"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.authorize.net\/sign-up\/pricing\/"
+        },
+        {
+            "type": "Self-Service Registration",
+            "url": "https:\/\/www.authorize.net\/sign-up\/"
+        },
+        {
+            "type": "Support",
+            "url": "https:\/\/www.authorize.net\/support\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/AuthorizeNet"
+        },
+        {
+            "type": "Webhooks",
+            "url": "https:\/\/developer.authorize.net\/api\/reference\/features\/webhooks.html"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/developer.authorize.net\/"
+        }
+    ]
+}
