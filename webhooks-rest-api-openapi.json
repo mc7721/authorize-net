@@ -1,0 +1,183 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Webhooks REST API",
+        "description": "TODO: Add Description",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "https:\/\/apitest.authorize.net\/rest\/v1"
+    ],
+    "paths": {
+        "\/eventtypes": {
+            "get": {
+                "summary": "Get Event Types",
+                "description": "",
+                "operationId": "GetEventTypes",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/webhooks": {
+            "post": {
+                "summary": "Create a New Webhook",
+                "description": "",
+                "operationId": "CreateANewWebhook",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "get": {
+                "summary": "Get Webhooks",
+                "description": "",
+                "operationId": "GetWebhooks",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/webhooks\/2b74b546-8fde-4484-80ad-c530ee970577": {
+            "get": {
+                "summary": "Get a Webhook",
+                "description": "",
+                "operationId": "GetAWebhook",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            },
+            "put": {
+                "summary": "Update a Webhook",
+                "description": "",
+                "operationId": "UpdateAWebhook",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/notifications": {
+            "get": {
+                "summary": "Get Notifications",
+                "description": "",
+                "operationId": "GetNotifications",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/webhooks\/b7834892-e6e7-44c4-b163-835eba487f48": {
+            "delete": {
+                "summary": "Delete  a Webhook",
+                "description": "",
+                "operationId": "DeleteAWebhook",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "\/webhooks\/2b74b546-8fde-4484-80ad-c530ee970577\/pings": {
+            "post": {
+                "summary": "Send a Test Notification",
+                "description": "",
+                "operationId": "SendATestNotification",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CreateaNewWebhookRequest": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "eventTypes": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "eventTypes": {
+                "type": "array"
+            },
+            "UpdateaWebhookRequest": {
+                "type": "object",
+                "properties": {
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "eventTypes": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "DeleteaWebhookRequest": {
+                "type": "object",
+                "properties": {
+                    "eventType": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "eventType": {
+                "type": "array"
+            }
+        }
+    }
+}
